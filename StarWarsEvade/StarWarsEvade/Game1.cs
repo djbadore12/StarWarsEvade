@@ -17,10 +17,10 @@ namespace StarWarsEvade
     public class Game1 : Microsoft.Xna.Framework.Game
     {
 
-        enum GameStates { TitleScreen, Playing, GameOver };
+        enum GameStates { TitleScreen, Intermission, Playing, GameOver };
         GameStates gameState = GameStates.TitleScreen;
         Texture2D titleScreen;
-        
+        Texture2D Intermission;
             
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
